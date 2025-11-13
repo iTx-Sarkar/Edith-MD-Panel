@@ -1,0 +1,15 @@
+{
+  "name": "edith-md-panel",
+  "version": "1.0.0",
+  "description": "EDITH-MD IS NOW AVAILABEL ON PANEL.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Bandaheali",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "axios": "^1.6.0"
+  }
+}
