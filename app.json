@@ -1,21 +1,22 @@
 {
   "name": "EDITH-MD",
   "description": "Javascript WhatsApp bot powered by Bandaheali",
-  "logo": "https://cdn-bandaheali.zone.id/edith/alive.jpg",
+  "logo": "https://i.ibb.co/8L2PmKPC/edith-md.jpg",
   "keywords": ["EDITH-MD", "WhatsApp Bot", "Bandaheali"],
   "success_url": "/",
-  "stack": "container",
+  "stack": "heroku-24",
+
   "env": {
-    "SESSION_ID": {
-      "description": "Put your Baileys session-id here (Base64).",
+    "DATABASE_URL": {
+      "description": "PostgreSQL / Supabase database connection URL",
       "required": true,
       "value": ""
     }
   },
+
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
     }
-  ],
-  "stack": "heroku-24"
-    }
+  ]
+}
