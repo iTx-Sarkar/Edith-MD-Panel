@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Multi-user WhatsApp bot with Baileys 7.0.0rc9",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name Sarkar",
     "restart": "pm2 restart Sarkar",
