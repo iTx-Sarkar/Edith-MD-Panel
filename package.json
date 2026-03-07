@@ -19,8 +19,7 @@
     "@google/genai": "^1.30.0",
     "@hapi/boom": "^10.0.1",
     "@octokit/rest": "^20.0.2",
-    "@whiskeysockets/baileys": "^7.0.0-rc.6",
-
+    "@whiskeysockets/baileys": "latest",
     "adm-zip": "latest",
     "async-mutex": "^0.5.0",
     "axios": "^1.13.2",
